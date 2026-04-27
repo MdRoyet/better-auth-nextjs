@@ -48,10 +48,10 @@ const SiteNavBar = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               <Link
-                href="/"
+                href="/about"
                 className="text-sm font-semibold text-zinc-600 hover:text-blue-600 transition-colors"
               >
-                Features
+                About
               </Link>
               <Link
                 href="/dashboard"
@@ -156,14 +156,23 @@ const SiteNavBar = () => {
       {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
         <div className="md:hidden border-t border-zinc-100 bg-white p-4 space-y-4 dark:bg-zinc-950">
-          <Link href="/" className="block text-base font-bold">
-            Features
+          <Link
+            href="/about"
+            className="block text-base font-bold text-zinc-600"
+          >
+            About
           </Link>
           <Link
             href="/dashboard"
             className="block text-base font-bold text-blue-600"
           >
             Dashboard
+          </Link>
+          <Link
+            href="/pricing"
+            className="block text-base font-bold text-zinc-600"
+          >
+            Pricing
           </Link>
           <hr className="border-zinc-100" />
           {user ? (

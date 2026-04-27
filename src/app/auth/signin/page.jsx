@@ -29,7 +29,7 @@ const SignIn = () => {
         email: userData.email,
         password: userData.password,
         rememberMe: true,
-        callbackURL: "/",
+        callbackURL: "/dashboard",
       });
 
       if (error) {
