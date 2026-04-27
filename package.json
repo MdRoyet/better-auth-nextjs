@@ -10,8 +10,12 @@
   },
   "dependencies": {
     "@better-auth/mongo-adapter": "^1.6.9",
+    "@heroui/button": "^2.2.32",
+    "@heroui/link": "^2.2.26",
+    "@heroui/navbar": "^2.2.30",
     "@heroui/react": "^3.0.3",
     "@heroui/styles": "^3.0.3",
+    "@heroui/theme": "^2.4.26",
     "better-auth": "^1.6.9",
     "framer-motion": "^12.38.0",
     "mongodb": "^7.2.0",
